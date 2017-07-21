@@ -118,7 +118,7 @@ $floods2 = file_get_contents("data/$chatid/lockflood.txt");
 $flood = file_get_contents("data/$chat_id/numflood.txt");
 $flood2 = file_get_contents("data/$chatid/numflood.txt");
 $text = $update->inline_qurey->qurey;
-$token = "Your ID";
+$token = "Your Token";
 $stat = file_get_contents("https://api.telegram.org/bot" . $token . "/getChatMember?chat_id=$chat_id&user_id=" . $from_id);
 $statjson = json_decode($stat, true);
 $status = $statjson['result']['status'];
