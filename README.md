@@ -1,4 +1,4 @@
-*UltraFast AntiSpamBot V 1.0
+*UltraFast AntiSpamBot V 1.0*
 
 ***Programmer*** : _MohammadHosseinHeidari_<br>
 ***Telegram ID*** : [NobLest](http://telegram.me/noblest)<br>
