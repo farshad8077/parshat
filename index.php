@@ -3369,15 +3369,6 @@ if (!in_array($chat_id, $members)) {
             'parse_mode' => 'MarkDown',
         ]);
     }
-} elseif ($textmassage == "/me") {
-    $sti = "https://provps.ir/anti/Member.webp";
-    if ($tc == 'group' | $tc == 'supergroup') {
-        sendAction($chat_id, 'typing');
-        MrPHPBot('sendSticker', [
-            'chat_id' => $chat_id,
-            'sticker' => $sti,
-        ]);
-    }
 } elseif ($textmassage == "/link" && $from_id == $owners) {
     if ($tc == 'group' | $tc == 'supergroup') {
         $getlink = file_get_contents("https://api.telegram.org/bot$token/exportChatInviteLink?chat_id=$chat_id");
