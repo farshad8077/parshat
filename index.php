@@ -8,7 +8,7 @@ V 1.o
 Programmer : mohamadhossein heidari
 ─═ঊঈঊঈ═─╯
 */
-define('API_KEY', '418354515:AAHTv8btZN8mfu89c0hcwsGvJIptAdlAwQw');
+define('API_KEY', 'Token');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method, $datas = [])
@@ -118,7 +118,7 @@ $floods2 = file_get_contents("data/$chatid/lockflood.txt");
 $flood = file_get_contents("data/$chat_id/numflood.txt");
 $flood2 = file_get_contents("data/$chatid/numflood.txt");
 $text = $update->inline_qurey->qurey;
-$token = "418354515:AAHTv8btZN8mfu89c0hcwsGvJIptAdlAwQw";
+$token = "Token";
 $stat = file_get_contents("https://api.telegram.org/bot" . $token . "/getChatMember?chat_id=$chat_id&user_id=" . $from_id);
 $statjson = json_decode($stat, true);
 $status = $statjson['result']['status'];
