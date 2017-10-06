@@ -8,7 +8,7 @@ V 1.o
 Programmer : mohamadhossein heidari
 ─═ঊঈঊঈ═─╯
 */
-define('API_KEY', 'Token');
+define('API_KEY', '411480249:AAHmNRiESyTpPQGpwBh9RIwsYhvXKH4W8tc');
 //-----------------------------------------------------------------------------------------
 //فانکشن MrPHPBot :
 function MrPHPBot($method, $datas = [])
